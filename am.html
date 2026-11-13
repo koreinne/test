@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>about me</title>
+
+        <linkhref="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"rel="stylesheet">
+
+    <style>
+         body{
+            background-color: #ffedf1;
+            background-repeat:no-repeat;
+            background-size: cover;
+            color: #553139;
+        }
+
+         .container {
+            justify-content: center;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            align-self: center;
+            width: 1285px;
+            background-color: #fdfbf7;
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .main-card {
+            border: none;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        topheader{
+            width: 1500px;
+        }
+
+        .portrait{
+            width: 300px;
+            height: auto;
+            float: right;
+            margin-left: auto;
+            margin-right: 50px
+        }
+        .header{
+            width: 400px;
+            height: auto;
+        }
+
+        .thing1{
+            width: 200px;
+            height: auto;
+            float: left;
+        }
+
+         .thing2{
+            width: 200px;
+            height: auto;
+            float: right;
+        }
+
+        .thing3{
+            width: 200px;
+            height: auto;
+            float: left;
+        }
+
+        .thing4{
+            width: 200px;
+            height: auto;
+            float: right;
+        }
+
+        .base{
+            size: 60px;
+        }
+
+        .button1{
+            width: 200px;
+            height: auto;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+        .button2{
+            width: 200px;
+            height: auto;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+        .button3{
+            width: 200px;
+            height: auto;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        
+        .vinyl{
+            width: 150px;
+            height: auto;
+            float: right;
+            margin-left: -1000px;
+            position: relative;
+            left: -170px
+        }
+
+        .click{
+            font-size: 10px;
+            right: 200px;
+            top: 250px;
+            position: absolute;
+            left: auto; 
+        }
+
+        .container2{
+            padding-top: 1%;
+            padding-bottom: 1%;
+            margin-left: 100px;
+            width: 450px;
+            background-color: #fdfbf7;
+            float: left;
+        }
+
+        .container3{
+            padding-top: 1%;
+            padding-bottom: 1%;
+            margin-right: 100px;
+            width: 450px;
+            background-color: #fdfbf7;
+            float: right;
+        }
+
+        .divider{
+            width: 1285px;
+            height: auto;
+        }
+
+        .banner{
+            width: 935px;
+            float: left;
+        }
+
+        .plush{
+            width: 175px;
+        }
+
+        .box{
+            width: 450px;
+        }
+
+        .box2{
+            width: 450px;
+        }
+
+        .button-container{
+            width: 1285px;
+            gap: 50px;
+        }
+
+    </style>
+    <body>
+        <center>
+        <div class="container">
+            <img class= "topheader" src= "topheader.png">
+            <img class="thing1" src="thing.png" style="transform: rotate(90deg);">
+            <img id="gifButton" src="vinyl.gif" class="vinyl" onclick="switchSong()" style="cursor: pointer;" alt="click to play">
+                <script>
+                      const audio1 = new Audio('one.mp3');
+                      const audio2 = new Audio(two.mp3); 
+
+                    audio1.addEventListener('ended', function() {
+                        audio2.play();
+                    });
+
+                     function switchSong() {
+                        audio1.play();
+                    }
+                    
+                </script>
+            </img>
+
+            <p class="click">click me!</p>
+            <img class="thing2" src="thing.png"style="transform: rotate(-180deg);">
+            <h1 class="text">𓏲ּ𝄢 about me˚˖𓍢ִ໋❀</h1>
+            <img class="header" src="header.png">
+            <div class="button-container">
+                <img class="button1" src="button1.png" onclick="window.location.href='home.html';" style="cursor: pointer;">
+                <img class="button2"src="button2.png" onclick="window.location.href='am.html';" style="cursor: pointer;">
+                <img class="button3" src="button3.png" onclick="window.location.href='portfolio.html';" style="cursor: pointer;">
+            </div>
+            <img class="banner" src="banner.png">
+            <img class="portrait"src="portrait.png">
+            <br>
+            <p>Hello! my name is Korinne Gabrielle F. Reyes. I was born on December 1, 2010. I'm an only child with two parents, Charlotte</p>
+            <p>and Robin Reyes. I grew up right near my maternal grandparents, who live just a few houses away. I also have a yaya, Julie. I used</p>
+            <p>to have a dog, whom I got in 2015 or 2016. But she unfortunately passed in 2023 due to liver problems. I have a new dog Groot, but he's a</p>
+            <p>pretty naughty boy. I love him anyway. My interests and hobbies will be just there as you scroll down :D </p>
+            <img src="kitana.png" class="plush">
+            <img src="mileena.png" class="plush">
+            <img src="divider.png" class="divider">
+            <h2 class="h2">˚₊‧꒰ა Interests ໒꒱ ‧₊˚</h2>
+            <div class="container2">
+                <img src="interests.png" class="box">
+            </div>
+            <div class="container3">
+                <img src="hobbies.png" class="box2">
+            </div>
+            <br>
+             <br>
+            <br>
+            <br>
+            <br>
+             <br>
+            <br>
+            <br>
+            <br>
+             <br>
+          
+             <img class="thing3" src="thing.png">
+            <img class="thing4" src="thing.png" style="transform: rotate(-90deg)">
+            <img class= "topheader" src= "botheader.png">
+        </div>
+        </center>
+    </body>
+
